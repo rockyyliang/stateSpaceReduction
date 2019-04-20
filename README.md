@@ -13,7 +13,7 @@ We can see that the system behavior deviates more after 3 states are discarded. 
 
 ![image](https://user-images.githubusercontent.com/37086122/56442301-35f3f700-62be-11e9-84d4-f3656356bfbd.png)
 
-These diagonal values can be used to predict output accuracy. The 3rd element is much smaller than the 1st and 2nd, meaning removing 3 states will significantly affect the quality of your reduced model. Keep in mind that regardless of how many states you take away, states of the reduced model do not correspond to states of your physical system anymore. It's the output Y that is still accurate.
+These diagonal values can be used to predict output accuracy. The 4th element is much smaller than the 3rd, meaning removing 3 states will significantly affect the quality of your reduced model. Keep in mind that regardless of how many states you take away, states of the reduced model do not correspond to states of your physical system anymore. It's the output Y that is still accurate.
 
 ## Purpose
 Once you have your reduced system, it can be used in model based algorithms such as Kalman filters and model predictive control. The advantage here is since it's a smaller state space, your code will run faster.
