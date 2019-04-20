@@ -9,7 +9,7 @@ The original system has 6 states: speed and position of each mass. Reduced syste
 
 ![p2](https://user-images.githubusercontent.com/37086122/56442137-8d459780-62bd-11e9-8ed3-979abf327f8c.jpg)
 
-We can see that the system behavior deviates more after 3 states are discarded. This is confirmed by checking diagonal values of the T * wc * T', where T is the transformation to realize the new system, and wc is the original system's controllability gramian. 
+We can see that the system behavior deviates more after 3 states are discarded. This is confirmed by checking diagonal values of T * wc * T', where T is the transformation to realize the new system, and wc is the original system's controllability gramian. 
 
 ![image](https://user-images.githubusercontent.com/37086122/56442301-35f3f700-62be-11e9-84d4-f3656356bfbd.png)
 
