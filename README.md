@@ -5,7 +5,7 @@ This example uses a 3 mass spring damper system.
 
 ![3mass](https://user-images.githubusercontent.com/37086122/56441950-c4677900-62bc-11e9-992d-7cdd5a8c9b83.PNG)
 
-The original system has 6 states: speed and position of each mass. Reduced system matrices are stores as Ared, Bred, and Cred. Different amounts of reduction were attempted and results are plotted. 
+The original system has 6 states: speed and position of each mass. Reduced system matrices are stores as Ared, Bred, and Cred. It tests different amounts of state reduction by comparing model output: 
 
 ![p2](https://user-images.githubusercontent.com/37086122/56442137-8d459780-62bd-11e9-8ed3-979abf327f8c.jpg)
 
