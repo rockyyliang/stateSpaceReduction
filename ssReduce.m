@@ -40,7 +40,7 @@ tvec = 0:0.001:5;
 impulse(sys,tvec);
 
 %find transform T for system reduction
-%Abar = inv(T)AT
+%Abar = T'AT
 %since P is full rank, T = P
 T = Tb;
 Abar = T*A*inv(T);
