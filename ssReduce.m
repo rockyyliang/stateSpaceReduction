@@ -50,7 +50,7 @@ Cbar = C*inv(T);
 for i = 0:1
     %partition system matrices
     %n is the amount of dimensions to keep
-    %loop thru different n values to check model validity
+    %loop thru different n values to check model validity 
     n = 4-i;
     Arr = Abar(1:n,1:n);
     Br = Bbar(1:n);
